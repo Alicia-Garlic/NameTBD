@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MUSICALITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cui-NC-Qtk">
+                                <rect key="frame" x="113.5" y="85" width="607" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6V-v7-J52">
+                                <rect key="frame" x="46" y="397" width="134" height="74"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="Ckx-Fi-bRY"/>
+                                    <constraint firstAttribute="width" constant="134" id="ROq-kh-OHJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Pop">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dcp-47-qLd" kind="show" id="JtW-RY-p5F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCe-Qf-ydJ">
+                                <rect key="frame" x="228" y="397" width="134" height="74"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="JHu-DE-wbY"/>
+                                    <constraint firstAttribute="width" constant="134" id="Oxd-ZB-rzz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Rock">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DWf-vZ-xqr" kind="show" id="e9L-76-uer"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdR-OQ-DLl">
+                                <rect key="frame" x="470" y="397" width="134" height="74"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Electronic">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2Gf-LH-el9" kind="show" id="Klz-1e-eSV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmZ-H7-6Yg">
+                                <rect key="frame" x="659" y="613" width="134" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Hip-Hop">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="l6c-Ea-lGt" kind="show" id="q4v-nA-WEw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vyr-OG-HDe">
+                                <rect key="frame" x="46" y="613" width="134" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="R&amp;B">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9is-zT-KLi" kind="show" id="ka9-I6-ve2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-w1-Fan">
+                                <rect key="frame" x="228" y="613" width="134" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Country">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Nwd-z8-ATz" kind="show" id="HWa-AA-Xhk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ve4-Zc-RUe">
+                                <rect key="frame" x="470" y="613" width="134" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Clasical">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GKO-yo-aI1" kind="show" id="6XD-DX-3qn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMd-zJ-xPy">
+                                <rect key="frame" x="39" y="699" width="323" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="50"/>
+                                <state key="normal" title="Quiz">
+                                    <color key="titleColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cyq-Vb-lGu" kind="show" id="wE4-KW-ulU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLT-4h-fWA">
+                                <rect key="frame" x="470" y="699" width="323" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="47"/>
+                                <state key="normal" title="Genre Mixer">
+                                    <color key="titleColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jl7-T3-piQ" kind="show" id="oca-xv-lfR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCM-AO-yye">
+                                <rect key="frame" x="25" y="142" width="789" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ever have a day when Spotify just isn't on your side? Or are you at a loss for what to listen to and your trusty playlist just won't cut it? Whatever it is, we’ve got the perfect way to get you out of your musical comfort zone! Start with a genre you love or want to learn more about below, or find a new one just for you when you take our quiz! Looking for something a little more niche? Try our genre mixer and we’ll see what we can find.</string>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="22"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Q5-jo-9Sd">
+                                <rect key="frame" x="659" y="397" width="134" height="74"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Jazz">
+                                    <color key="titleColor" red="0.41768887639045715" green="0.9596983790397644" blue="0.96765178442001343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xxb-I5-lzd" kind="show" id="e5K-yJ-YVy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="J6V-v7-J52" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="7dC-qv-UJa"/>
+                            <constraint firstItem="2Q5-jo-9Sd" firstAttribute="leading" secondItem="wdR-OQ-DLl" secondAttribute="trailing" constant="55" id="NKo-H4-vfn"/>
+                            <constraint firstItem="dCe-Qf-ydJ" firstAttribute="leading" secondItem="J6V-v7-J52" secondAttribute="trailing" constant="48" id="T5p-yb-wWb"/>
+                            <constraint firstItem="wdR-OQ-DLl" firstAttribute="leading" secondItem="dCe-Qf-ydJ" secondAttribute="trailing" constant="59" id="TpF-Yl-pat"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Q5-jo-9Sd" secondAttribute="trailing" constant="68" id="edN-pz-8rZ"/>
+                            <constraint firstItem="dCe-Qf-ydJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-122" id="wUT-Yq-gby"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.41007194244605" y="115.46762589928058"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hqH-YW-kZk">
+            <objects>
+                <viewController id="Nwd-z8-ATz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qv9-x2-H85">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bfx-QX-l17">
+                                <rect key="frame" x="240" y="121" width="476" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="prq-w7-pb7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKb-mG-O9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127" y="790"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9P9-Vf-DJ6">
+            <objects>
+                <viewController id="GKO-yo-aI1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nnC-gK-cOY">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CLASSICAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wkj-Bb-Q7f">
+                                <rect key="frame" x="268" y="101" width="528" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fbq-bJ-YVK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8q6-LM-6PM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="822" y="790"/>
+        </scene>
+        <!--Question1-->
+        <scene sceneID="QT5-xm-6FP">
+            <objects>
+                <viewController id="YT2-kX-Am9" customClass="question1" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sb9-jy-OBH">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hl2-xy-Pcp">
+                                <rect key="frame" x="280" y="20" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you prefer hard, fast-paced music, or soft and relaxing tunes?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDJ-O9-vfe">
+                                <rect key="frame" x="72" y="133" width="690" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YI-NT-AcC">
+                                <rect key="frame" x="101" y="325" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Loud and Fast">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="option1:" destination="YT2-kX-Am9" eventType="touchUpInside" id="tey-uo-cwX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKL-dC-5xs">
+                                <rect key="frame" x="475" y="325" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Soft and Calming">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="option2:" destination="YT2-kX-Am9" eventType="touchUpInside" id="kdH-4v-lNm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a season:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuI-C5-QEd">
+                                <rect key="frame" x="83" y="537" width="690" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17c-ji-bcp">
+                                <rect key="frame" x="72" y="646" width="318" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 2.59.15 PM"/>
+                                <connections>
+                                    <action selector="spring:" destination="YT2-kX-Am9" eventType="touchUpInside" id="zEl-9H-UKh"/>
+                                    <segue destination="TqR-tS-Nh0" kind="show" id="aX3-rs-X2k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANc-2u-iZA">
+                                <rect key="frame" x="475" y="646" width="329" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 2.59.46 PM"/>
+                                <connections>
+                                    <action selector="winter:" destination="YT2-kX-Am9" eventType="touchUpInside" id="tyr-Dg-Asp"/>
+                                    <segue destination="TqR-tS-Nh0" kind="show" id="TOa-kV-Aog"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZz-AQ-pGp">
+                                <rect key="frame" x="455" y="854" width="359" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 2.58.09 PM"/>
+                                <connections>
+                                    <action selector="winter:" destination="YT2-kX-Am9" eventType="touchUpInside" id="0jB-vt-bBh"/>
+                                    <segue destination="TqR-tS-Nh0" kind="show" id="B5e-LC-5gs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9n-qW-wvv">
+                                <rect key="frame" x="50" y="843" width="363" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 3.00.26 PM"/>
+                                <connections>
+                                    <action selector="summer:" destination="YT2-kX-Am9" eventType="touchUpInside" id="6zd-Zv-tSu"/>
+                                    <segue destination="TqR-tS-Nh0" kind="show" id="DKU-y3-0Cp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4uc-rh-u77"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ega-6z-lzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436.69064748201441" y="1468.705035971223"/>
+        </scene>
+        <!--Question2-->
+        <scene sceneID="ceg-6h-JCW">
+            <objects>
+                <viewController id="TqR-tS-Nh0" customClass="question2" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="khU-5H-bk3">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jaP-sZ-aV2">
+                                <rect key="frame" x="280" y="35" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How are you feeling today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzP-rN-CYa">
+                                <rect key="frame" x="157" y="155" width="508" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bT7-XH-M8W">
+                                <rect key="frame" x="480" y="262" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Sad">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sad:" destination="TqR-tS-Nh0" eventType="touchUpInside" id="JJU-5P-58M"/>
+                                    <segue destination="V9e-Yz-l2R" kind="show" id="85L-ug-jSk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-93-Gh4">
+                                <rect key="frame" x="69" y="548" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Angry">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="angry:" destination="TqR-tS-Nh0" eventType="touchUpInside" id="Q19-Hi-VD0"/>
+                                    <segue destination="V9e-Yz-l2R" kind="show" id="euS-mo-B5X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xG-Db-AiP">
+                                <rect key="frame" x="480" y="548" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Scared">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scared:" destination="TqR-tS-Nh0" eventType="touchUpInside" id="YBP-Y1-BYk"/>
+                                    <segue destination="V9e-Yz-l2R" kind="show" id="C9w-AU-hrc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOq-Mw-MaF">
+                                <rect key="frame" x="480" y="842" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Undecided">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="undecided:" destination="TqR-tS-Nh0" eventType="touchUpInside" id="hgL-cV-xvv"/>
+                                    <segue destination="V9e-Yz-l2R" kind="show" id="YrG-el-ghV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbF-m3-sE6">
+                                <rect key="frame" x="69" y="842" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Stressed">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stressed:" destination="TqR-tS-Nh0" eventType="touchUpInside" id="kTK-5X-Tmz"/>
+                                    <segue destination="V9e-Yz-l2R" kind="show" id="GWM-Lc-OTV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5Z-fY-sf3">
+                                <rect key="frame" x="69" y="262" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Happy">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="happy:" destination="TqR-tS-Nh0" eventType="touchUpInside" id="oEw-IZ-yDf"/>
+                                    <segue destination="V9e-Yz-l2R" kind="show" id="BmY-h9-42J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1sf-1v-yn8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkS-fs-3qY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113" y="1468"/>
+        </scene>
+        <!--Question3-->
+        <scene sceneID="Jqo-Be-ypr">
+            <objects>
+                <viewController id="V9e-Yz-l2R" customClass="question3" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Grt-Bq-95q">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iSt-cB-GfA">
+                                <rect key="frame" x="280" y="20" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a color:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eB2-1S-WzW">
+                                <rect key="frame" x="304" y="164" width="227" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rap, Vocal, or Instrumental?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spp-0K-tFc">
+                                <rect key="frame" x="154" y="624" width="527" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpV-54-Qao">
+                                <rect key="frame" x="9" y="680" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Rap">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="rap:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="MGA-6t-R7d"/>
+                                    <segue destination="LAH-T4-Lxa" kind="show" id="3uI-Oq-TQX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7Y-Mq-5ch">
+                                <rect key="frame" x="269" y="865" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Instrumental">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="instrumental:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="OzD-Wf-EUX"/>
+                                    <segue destination="LAH-T4-Lxa" kind="show" id="mth-Pd-hGG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFk-HO-p1K">
+                                <rect key="frame" x="537" y="680" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Vocal">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="vocal:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="nGV-6n-RYT"/>
+                                    <segue destination="LAH-T4-Lxa" kind="show" id="nwB-7k-1vE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEM-xr-WeB">
+                                <rect key="frame" x="577" y="429" width="182" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 3.39.12 PM"/>
+                                <connections>
+                                    <action selector="purple:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="vcT-NI-149"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qS6-uX-UMo">
+                                <rect key="frame" x="326" y="428" width="182" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 3.38.03 PM"/>
+                                <connections>
+                                    <action selector="blue:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="tWS-3g-xia"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTa-6R-aSN">
+                                <rect key="frame" x="73" y="420" width="198" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 3.37.13 PM"/>
+                                <connections>
+                                    <action selector="green:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="mIB-OQ-I6u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIC-Wv-9y9">
+                                <rect key="frame" x="577" y="195" width="182" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 3.36.53 PM"/>
+                                <connections>
+                                    <action selector="yellow:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="579-3h-Qy3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cy0-9Y-zdk">
+                                <rect key="frame" x="318" y="229" width="198" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 3.36.11 PM"/>
+                                <connections>
+                                    <action selector="orange:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="sbu-fi-aLs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mci-pO-SyI">
+                                <rect key="frame" x="45" y="189" width="191" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2019-08-01 at 3.35.42 PM"/>
+                                <connections>
+                                    <action selector="red:" destination="V9e-Yz-l2R" eventType="touchUpInside" id="dkw-s8-PLu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jKi-J5-fHl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKB-x2-weI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779.8561151079139" y="1463.8489208633093"/>
+        </scene>
+        <!--Question4-->
+        <scene sceneID="eHx-gW-8qx">
+            <objects>
+                <viewController id="LAH-T4-Lxa" customClass="question4" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aQX-RG-hy7">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M73-It-MeC">
+                                <rect key="frame" x="289" y="22" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you like your lyrics?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deg-Rs-EeD">
+                                <rect key="frame" x="159" y="136" width="525" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xK0-dV-l9m">
+                                <rect key="frame" x="39" y="234" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Deep &amp; Emotional">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="deep:" destination="LAH-T4-Lxa" eventType="touchUpInside" id="zx3-Om-Vsj"/>
+                                    <segue destination="aV7-7K-rxr" kind="show" id="Kx7-wx-pXV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIp-i0-Gwh">
+                                <rect key="frame" x="504" y="234" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Loud &amp; political">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="political:" destination="LAH-T4-Lxa" eventType="touchUpInside" id="q1F-Xv-tVE"/>
+                                    <segue destination="aV7-7K-rxr" kind="show" id="SOU-pE-iU8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9N-r9-Xna">
+                                <rect key="frame" x="147" y="489" width="500" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Romantic &amp; Sensual">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="romantic:" destination="LAH-T4-Lxa" eventType="touchUpInside" id="cl9-EC-XYR"/>
+                                    <segue destination="aV7-7K-rxr" kind="show" id="OyG-2T-lY0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmX-C0-lyG">
+                                <rect key="frame" x="147" y="752" width="500" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Abrasive &amp; Dramatic">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dramatic:" destination="LAH-T4-Lxa" eventType="touchUpInside" id="pla-mt-XiG"/>
+                                    <segue destination="aV7-7K-rxr" kind="show" id="Pa9-KV-WVB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="RfP-gf-obn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Wf-89-bOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2442.4460431654679" y="1462.769784172662"/>
+        </scene>
+        <!--Question5-->
+        <scene sceneID="EfQ-xf-7fH">
+            <objects>
+                <viewController id="aV7-7K-rxr" customClass="question5" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="96H-k7-xVV">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GIS-hp-x8l">
+                                <rect key="frame" x="280" y="20" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Acoustic or Electronic?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQA-rq-YuC">
+                                <rect key="frame" x="196" y="138" width="443" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0r-7g-iLt">
+                                <rect key="frame" x="167" y="230" width="500" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Acoustic">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="acoustic:" destination="aV7-7K-rxr" eventType="touchUpInside" id="alB-ml-hyZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you feel about autotune?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9w-Nx-n5p">
+                                <rect key="frame" x="106" y="652" width="623" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzC-aq-uMa">
+                                <rect key="frame" x="167" y="708" width="500" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Yea">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="yea:" destination="aV7-7K-rxr" eventType="touchUpInside" id="mPK-z7-jeL"/>
+                                    <segue destination="dgw-ct-4vY" kind="show" id="omF-oM-Z5G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9Z-Aa-DNn">
+                                <rect key="frame" x="167" y="900" width="500" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Nay">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nay:" destination="aV7-7K-rxr" eventType="touchUpInside" id="zch-gd-EJc"/>
+                                    <segue destination="dgw-ct-4vY" kind="show" id="ms7-ce-At9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aD8-RR-VYr">
+                                <rect key="frame" x="167" y="433" width="500" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="Electronic">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="electronic:" destination="aV7-7K-rxr" eventType="touchUpInside" id="hwK-ox-Mhj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="efg-GI-BrU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aoi-ib-6bI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3097.8417266187053" y="1462.769784172662"/>
+        </scene>
+        <!--Question6-->
+        <scene sceneID="utg-sS-cJH">
+            <objects>
+                <viewController id="dgw-ct-4vY" customClass="question6" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dlG-gn-YAo">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TeL-13-CGt">
+                                <rect key="frame" x="280" y="20" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's your musical pet peeve?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quX-Gg-Xr0">
+                                <rect key="frame" x="123" y="118" width="589" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NI9-24-9o7">
+                                <rect key="frame" x="20" y="174" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="swearing">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="swearing:" destination="dgw-ct-4vY" eventType="touchUpInside" id="nkb-3k-4T8"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="hYu-hx-hUO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFA-VY-WV7">
+                                <rect key="frame" x="286" y="355" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="mumbling">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="mumbling:" destination="dgw-ct-4vY" eventType="touchUpInside" id="IsA-CN-Rs9"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="KhQ-uB-4av"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-nx-83r">
+                                <rect key="frame" x="552" y="174" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="other languages">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="languages:" destination="dgw-ct-4vY" eventType="touchUpInside" id="fNZ-BV-CkZ"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="ilO-2w-aDP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gog-D7-uQo">
+                                <rect key="frame" x="20" y="538" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="processed vocals">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="processed:" destination="dgw-ct-4vY" eventType="touchUpInside" id="D8Z-MR-7rp"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="QrY-Vm-92b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlT-ti-rTA">
+                                <rect key="frame" x="552" y="538" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="synth">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="synth:" destination="dgw-ct-4vY" eventType="touchUpInside" id="Mcb-e9-yuE"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="cIs-NV-Hx3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYD-bU-EvQ">
+                                <rect key="frame" x="286" y="726" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="drop chorus">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="drop:" destination="dgw-ct-4vY" eventType="touchUpInside" id="4zG-hX-Dhz"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="WNu-LJ-DK8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyY-t8-gYF">
+                                <rect key="frame" x="20" y="908" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="sexual innuendo">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sex:" destination="dgw-ct-4vY" eventType="touchUpInside" id="Xus-fQ-UXP"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="w8U-vH-HxD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFy-Uk-XyV">
+                                <rect key="frame" x="552" y="908" width="262" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
+                                <state key="normal" title="repetitive sounds">
+                                    <color key="titleColor" red="0.82502180339999998" green="0.93007671830000005" blue="0.95343345400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="autotune:" destination="dgw-ct-4vY" eventType="touchUpInside" id="j7q-3Y-9DK"/>
+                                    <action selector="repeated:" destination="dgw-ct-4vY" eventType="touchUpInside" id="t4I-2v-WaM"/>
+                                    <segue destination="VuE-p6-yRr" kind="show" id="eCK-eG-wbd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aiB-W2-IGh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4uF-gc-xWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3741" y="1466"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eW7-4j-ZCP">
+            <objects>
+                <viewController id="l6c-Ea-lGt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3np-fA-w3A">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HIP-HOP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sH2-Ud-OVO">
+                                <rect key="frame" x="181" y="162" width="407" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BY8-AF-Wis"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PyK-HM-kKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1523" y="787"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CEY-PH-y9P">
+            <objects>
+                <viewController id="cyq-Vb-lGu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XHs-k7-zAN">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nsJ-Sd-zLQ">
+                                <rect key="frame" x="280" y="92" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sN-Ak-Rn2">
+                                <rect key="frame" x="10" y="210" width="814" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">CAUTION: This quiz may expose some deep and terrifying truths about your personality and music tastes, as well as expose you to songs you may not be prepared for. Are you willing to take the risk?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXI-fW-6C1">
+                                <rect key="frame" x="28" y="356" width="357" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="43"/>
+                                <state key="normal" title="I'm ready!">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YT2-kX-Am9" kind="show" id="g3U-Gf-UD8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRq-eP-7aP">
+                                <rect key="frame" x="459" y="356" width="355" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="35"/>
+                                <state key="normal" title="Shoot, no, go back!">
+                                    <color key="titleColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="wA5-0Z-pSW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="cXn-sB-bDd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vdP-Ox-3Cj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2179.8561151079139" y="789.92805755395682"/>
+        </scene>
+        <!--Quiz Results-->
+        <scene sceneID="TF9-1D-Giq">
+            <objects>
+                <viewController id="VuE-p6-yRr" customClass="quizResults" customModule="nameTBD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j6f-cg-Dfz">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSn-R7-wn9">
+                                <rect key="frame" x="141" y="330" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESULTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n0L-bU-91A">
+                                <rect key="frame" x="209" y="44" width="417" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You made it out alive! Your matches are below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB4-jH-e3k">
+                                <rect key="frame" x="20" y="129" width="788" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="50"/>
+                                <color key="textColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="match 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8s5-c9-Gvb">
+                                <rect key="frame" x="0.0" y="299" width="381" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="381" id="KGD-Sg-sgV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="50"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="match 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5j-T7-Bk4">
+                                <rect key="frame" x="0.0" y="408" width="381" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="50"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXB-fk-TPH">
+                                <rect key="frame" x="101" y="855" width="633" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23459091779999999" green="0.56486386060000005" blue="0.56080037360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="32"/>
+                                <state key="normal" title="find something else to listen to">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="lBi-K3-Nex"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="match 3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1k3-bV-hvE">
+                                <rect key="frame" x="0.0" y="532" width="381" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="50"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nJ9-E3-UkG"/>
+                    </view>
+                    <connections>
+                        <outlet property="match1" destination="8s5-c9-Gvb" id="7fz-Gw-ddj"/>
+                        <outlet property="match2" destination="c5j-T7-Bk4" id="vii-Ww-0yM"/>
+                        <outlet property="match3" destination="1k3-bV-hvE" id="asN-xv-sLx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCp-n1-vxm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2869.7841726618708" y="794.78417266187057"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pFi-Ch-gG1">
+            <objects>
+                <viewController id="jl7-T3-piQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9DF-Mv-c3j">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GENRE MIXER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dFX-Xx-79N">
+                                <rect key="frame" x="89" y="218" width="673" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Quu-WO-Hbo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cSb-HR-Ixn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3539" y="799"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="flJ-1h-YEG">
+            <objects>
+                <viewController id="dcp-47-qLd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fpb-r0-3AU">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="POP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Wc-dR-KT8">
+                                <rect key="frame" x="280" y="78" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWr-MM-MO4">
+                                <rect key="frame" x="43" y="176" width="748" height="324"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A shortened name for popular, if you’ve heard music you’ve probably heard pop. Nowadays pop showcases a number of electronic elements, as well as inspiration from several other genres. Pop is an ever changing genre, and while some may criticize it for being shallow or repetitive, it is the most, well, popular of all. Big names in pop include Halsey, Ed Sheeran, Shawn Mendes and Taylor Swift.
+</string>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="25"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-08-01 at 1.31.13 PM" translatesAutoresizingMaskIntoConstraints="NO" id="jO6-Dv-vq2">
+                                <rect key="frame" x="43" y="443" width="180" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sucker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fk-Kw-cN4">
+                                <rect key="frame" x="222" y="486" width="146" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                <color key="textColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-08-01 at 1.32.56 PM" translatesAutoresizingMaskIntoConstraints="NO" id="NrM-Yg-CHP">
+                                <rect key="frame" x="8" y="611" width="250" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sunflower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNQ-wD-2FQ">
+                                <rect key="frame" x="222" y="647" width="216" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                <color key="textColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-08-01 at 1.33.27 PM" translatesAutoresizingMaskIntoConstraints="NO" id="6sw-QD-pd6">
+                                <rect key="frame" x="13" y="768" width="240" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7 Rings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDB-ix-qkK">
+                                <rect key="frame" x="222" y="807" width="160" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                <color key="textColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZW-fX-iJr">
+                                <rect key="frame" x="111" y="943" width="633" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23459091782569885" green="0.56486386060714722" blue="0.56080037355422974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="32"/>
+                                <state key="normal" title="find something else to listen to">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="M20-nr-F0d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="eKY-fv-D5n"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Pp-vQ-RbY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="827.33812949640298" y="113.84892086330936"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="N4A-Lg-90i">
+            <objects>
+                <viewController id="DWf-vZ-xqr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LB1-sU-4Tz">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ROCK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XWK-aC-uSP">
+                                <rect key="frame" x="280" y="69" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCr-c5-trf">
+                                <rect key="frame" x="20" y="180" width="794" height="324"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Pioneered in the 1950’s by the likes of the Beatles, Bob Dylan, and Jimi Hendrix, today’s rock was once known as rock-and-roll. Rock-and-roll itself was a combination of African-American and Caucasian influences alike, and drew on everything from blues to country to church music. Though rock might have changed in the last half-century, it remains true to its roots and is one of the most popular genres today. Big names in rock include Imagine Dragons, Queen, Led Zeppelin and AC/DC.
+</string>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="25"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-08-01 at 1.34.03 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Ufv-3z-xHQ">
+                                <rect key="frame" x="20" y="476" width="199" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heat of the Moment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1y-lO-Fxy">
+                                <rect key="frame" x="227" y="512" width="445" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                <color key="textColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JyX-uA-DPa">
+                                <rect key="frame" x="91" y="943" width="633" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23459091782569885" green="0.56486386060714722" blue="0.56080037355422974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="32"/>
+                                <state key="normal" title="find something else to listen to">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="i5s-P3-vLf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-08-01 at 1.37.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="EH9-Nw-Fij">
+                                <rect key="frame" x="-8" y="628" width="254" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immigrant Song" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiG-cW-Ke1">
+                                <rect key="frame" x="232" y="649" width="351" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                <color key="textColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-08-01 at 1.40.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="RXl-3r-7at">
+                                <rect key="frame" x="6" y="793" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pour Some Sugar on Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vg2-C2-bRn">
+                                <rect key="frame" x="227" y="811" width="534" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                <color key="textColor" red="0.32785546779632568" green="0.78160268068313599" blue="0.85612696409225464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="LzA-3h-Kgr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EUJ-mh-kvK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1506.4748201438849" y="116.54676258992806"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FQ4-yG-jvg">
+            <objects>
+                <viewController id="2Gf-LH-el9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1rw-PQ-mav">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ELECTRONIC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jha-yS-LAx">
+                                <rect key="frame" x="109" y="57" width="617" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tac-e2-Xa2">
+                                <rect key="frame" x="38" y="155" width="758" height="357"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Born out of the use of electronic instruments, electronic music lives off of synths and autotune. Many would consider electronic as the most diverse and wide-ranged genre out there, with more subgenres than anyone could name. From synthpop and disco to edm and dubstep, there’s something in this genre for everyone, Big names in electronic music include Marshmello, Avicii, Jon Bellion and Alan Walker.
+</string>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="26"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-d5-Brh">
+                                <rect key="frame" x="101" y="943" width="633" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23459091779999999" green="0.56486386060000005" blue="0.56080037360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="32"/>
+                                <state key="normal" title="find something else to listen to">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="xd5-R7-qPY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BlN-Q1-Y5y"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vJF-1B-HqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2196.4028776978421" y="113.84892086330936"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sgw-qV-CMf">
+            <objects>
+                <viewController id="Xxb-I5-lzd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zcI-xm-MQ3">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JAZZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bf4-5i-FtI">
+                                <rect key="frame" x="282" y="48" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="xzI-Ig-xVV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WfA-Jp-n3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2896" y="114"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VRZ-u7-FvD">
+            <objects>
+                <viewController id="9is-zT-KLi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LBv-oJ-L4V">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R&amp;B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bgu-nn-WiO">
+                                <rect key="frame" x="280" y="60" width="275.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zv1-DN-OMR">
+                                <rect key="frame" x="38" y="144" width="758" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">R&amp;B or rhythm and blues, is a large musical phenomenon born from black culture and history in the 1930s and onwards. Soul and funk are two major subsets of R&amp;B, and often focus on love lyrically. Music from this genre often include characteristics such as a heavy backbeat, sax and brass, and electrically-focused instrumentals. Big names in R&amp;B include Mary J. Blige, Usher, Whitney Houston, TLC and Alicia Keys.
+</string>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="26"/>
+                                <color key="textColor" red="0.23677247762680054" green="0.60570383071899414" blue="0.75260239839553833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSK-tH-UAz">
+                                <rect key="frame" x="123" y="931" width="633" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23459091779999999" green="0.56486386060000005" blue="0.56080037360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="32"/>
+                                <state key="normal" title="find something else to listen to">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="w7O-ms-zO1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bht-wi-ugL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3555.3956834532378" y="125.71942446043165"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LdK-y2-XxO">
+            <objects>
+                <viewController id="VeX-2b-fWS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Uh-FH-v9T">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CLASSICAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ap-an-mah">
+                                <rect key="frame" x="268" y="101" width="528" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="XTF-wW-9fk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="inr-wb-33f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="822" y="790"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IWK-uG-tR4">
+            <objects>
+                <viewController id="uAK-V4-MiM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RAu-Wn-Oaf">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeg-kg-ZQ8">
+                                <rect key="frame" x="240" y="121" width="476" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="90"/>
+                                <color key="textColor" red="0.2367724776" green="0.6057038307" blue="0.75260239839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82502180337905884" green="0.9300767183303833" blue="0.95343345403671265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Lga-8N-HZW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSd-M1-Afd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127" y="790"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2019-08-01 at 1.31.13 PM" width="110.5" height="111"/>
+        <image name="Screen Shot 2019-08-01 at 1.32.56 PM" width="420" height="423"/>
+        <image name="Screen Shot 2019-08-01 at 1.33.27 PM" width="275.5" height="277.5"/>
+        <image name="Screen Shot 2019-08-01 at 1.34.03 PM" width="223" height="214"/>
+        <image name="Screen Shot 2019-08-01 at 1.37.19 PM" width="221" height="220"/>
+        <image name="Screen Shot 2019-08-01 at 1.40.01 PM" width="223" height="221"/>
+        <image name="Screen Shot 2019-08-01 at 2.58.09 PM" width="827" height="549"/>
+        <image name="Screen Shot 2019-08-01 at 2.59.15 PM" width="723" height="519"/>
+        <image name="Screen Shot 2019-08-01 at 2.59.46 PM" width="882" height="465"/>
+        <image name="Screen Shot 2019-08-01 at 3.00.26 PM" width="628" height="418"/>
+        <image name="Screen Shot 2019-08-01 at 3.35.42 PM" width="225" height="228"/>
+        <image name="Screen Shot 2019-08-01 at 3.36.11 PM" width="553" height="556"/>
+        <image name="Screen Shot 2019-08-01 at 3.36.53 PM" width="553" height="553"/>
+        <image name="Screen Shot 2019-08-01 at 3.37.13 PM" width="201" height="200"/>
+        <image name="Screen Shot 2019-08-01 at 3.38.03 PM" width="226" height="229"/>
+        <image name="Screen Shot 2019-08-01 at 3.39.12 PM" width="549" height="553"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="QrY-Vm-92b"/>
+        <segue reference="omF-oM-Z5G"/>
+        <segue reference="SOU-pE-iU8"/>
+        <segue reference="mth-Pd-hGG"/>
+        <segue reference="C9w-AU-hrc"/>
+        <segue reference="aX3-rs-X2k"/>
+        <segue reference="lBi-K3-Nex"/>
+    </inferredMetricsTieBreakers>
+</document>
